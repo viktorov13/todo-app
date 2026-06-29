@@ -6,7 +6,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	"github.com/sirupsen/logrus"
-	todo_app "github.com/viktorov13/todo-app"
+	"github.com/viktorov13/todo-app"
 )
 
 type TodoListPostgres struct {

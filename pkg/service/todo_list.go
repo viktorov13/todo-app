@@ -1,7 +1,7 @@
 package service
 
 import (
-	todo_app "github.com/viktorov13/todo-app"
+	"github.com/viktorov13/todo-app"
 	"github.com/viktorov13/todo-app/pkg/repository"
 )
 

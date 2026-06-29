@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	todo_app "github.com/viktorov13/todo-app"
+	"github.com/viktorov13/todo-app"
 	"github.com/viktorov13/todo-app/pkg/repository"
 )
 

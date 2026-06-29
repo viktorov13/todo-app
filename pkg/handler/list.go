@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	todo_app "github.com/viktorov13/todo-app"
+	"github.com/viktorov13/todo-app"
 )
 
 func (h *Handler) createList(c *gin.Context) {
@@ -92,7 +92,7 @@ func (h *Handler) updateList(c *gin.Context) {
 		return
 	}
 
-	if err := h.services.Update(userId, id, input); err != nil {
+	if err := h.services.TodoList.Update(userId, id, input); err != nil {
 		NewErrorResponse(c, http.StatusInternalServerError, err.Error())
 		return
 	}
